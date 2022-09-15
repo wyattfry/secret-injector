@@ -1,0 +1,21 @@
+{
+  "name": "secret-injector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "secret-injector": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/identity": "^2.1.0",
+    "@azure/keyvault-secrets": "^4.5.1"
+  }
+}
